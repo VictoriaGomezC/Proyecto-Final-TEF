@@ -1,0 +1,104 @@
+.hero{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 150dvh;
+    background-image: url(../assets/truck2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+nav{
+    display:flex;
+    width: 100%;
+    height: 50px;
+    background-color: var(--colormenu);
+    cursor: url(./assets/truck_cursor.png) 0 0, pointer;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.wave{
+    width: 100%;
+    align-self: flex-end;
+}
+ul li{
+    display:inline-block;
+    border: 2px solid white;
+    padding:5px 25px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    text-shadow:rgb(0, 0, 0) 1px 0 10px;
+    font-family: var(--tipomenu);
+}
+h1 {
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-size: 150px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.resuinicio{
+    margin: 0 auto;
+    width: 850px;
+    height: 150px;
+    margin-top: -200px;
+    text-align:justify;
+    text-wrap: wrap;
+    color: #ffffff ;
+    text-shadow: #24201f 2px 1px 1px;
+    font-size: 25px;
+    padding: 18px;
+    font-family: var(--tipomenu);
+}
+.flotacontainer{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 100%;
+    padding: 50px 0;
+    margin: 0 auto;
+    justify-content: space-around;
+    
+    
+}
+
+.flotaypicture{
+    flex: 300px;
+    min-width: 200px;
+    /* flex-basis: 300px; */
+    /* flex-grow: 1; hacer esto es lo mismo que hacer flex: y el valor del basis */
+}
+
+.flotaimg{
+    width: 150px;
+    height: 100%;
+    
+    object-fit: cover; 
+    transition: all 1s;
+}
+
+.flotaimg:hover{
+    scale: 1.2;
+}
+.CardFlota{
+    width: 800px;
+    height: 200px;
+    background-color: var(--colorcad);
+    border-radius: 50px;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.tarjetas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: center;
+}

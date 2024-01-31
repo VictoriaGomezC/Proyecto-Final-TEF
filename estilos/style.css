@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Raleway:wght@100&display=swap');
+@import url(./normalize.css);
+@import url(./mobile.css);
+
+/* ajustes generales */
+
+:root{
+    --colormenu: #24201f;
+    --colorcad: rgba(78, 52, 52, 0.486);
+    --tipomenu: 'Raleway', sans-serif;
+
+}
