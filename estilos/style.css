@@ -8,7 +8,9 @@
 :root{
     --fonthtml:'Manrope', sans-serif;
     --colorfont: white;
-    --colorportada:rgba(110, 6, 6, 0.888);
+    --colorportada:#ff7f50b8;
+    --colornav: #660000;
+    --color_bg_flota:#0e3d10af;
 }
 
 html{
