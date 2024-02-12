@@ -8,10 +8,12 @@
 :root{
     --fonthtml:'Manrope', sans-serif;
     --colorfont: white;
-    --colorportada:#ffa500;
+    --colorportada:rgb(255, 165, 0);
     --colornav: purple;
-    --color_flota:#FFBF00;
+    --color_flota:#ffffff;
+    --color_flotatext:rgb(255, 238, 0);
     --color_qs:#282864;
+
 }
 
 html{

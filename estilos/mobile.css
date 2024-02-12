@@ -179,6 +179,17 @@ h1{
     border-radius: 80px 0px 80px 15px / 28px 0px 28px 0px;
 
 }
+
+.waveflota{
+    position: absolute;
+    bottom: -20px;
+}
+
+.description_flota{
+    background-color: var(--color_flotatext);
+}
+
+/* footer */
 footer{
     width: 100%;
     height: 160px;
