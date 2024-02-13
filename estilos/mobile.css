@@ -106,7 +106,7 @@ nav a{
     width: 120px;
     height: 120px; 
     border-radius: 100%;
-    background-color: var(--colornav);
+    background-color: var(--colorlogo);
 }
 
 h1{
@@ -114,6 +114,7 @@ h1{
     align-self: center;
     position: absolute;
     top: 10px;
+    color: var(--colornav);
 
 }
 .motto{
@@ -149,6 +150,7 @@ h1{
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
+    gap: 1px 1px;
 }
 
 /* galería */
@@ -160,7 +162,8 @@ h1{
     height: 100dvh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    align-content: flex-start;
     
     
 }
@@ -187,6 +190,7 @@ h1{
 
 .description_flota{
     background-color: var(--color_flotatext);
+    height: 100dvh;
 }
 
 /* footer */
@@ -199,6 +203,7 @@ footer{
     flex-wrap: wrap;
     align-content: space-around;
     position: relative;
+    bottom: 0;
     
 }
 
@@ -240,3 +245,6 @@ footer a{
 
 }
 
+.hero2{
+    height: 50px;
+}
