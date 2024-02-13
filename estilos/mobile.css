@@ -1,7 +1,7 @@
 /* header */
 .hero{
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     background-color: var(--colorportada);
     /* padding: .1px; */
     display:flex;
@@ -87,9 +87,10 @@ nav a{
 #menu:target .close{
     display:block
 }
-
+/* portada */
 .portada{
-    flex-grow: 2;
+    /* flex-grow: 2; */
+    width: 100%;
     position: relative;
     top: 50px;
     display: flex;
@@ -97,25 +98,33 @@ nav a{
     justify-content: center;
 
 }
-#title{
-    width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    position: relative;
+
+/* de línea 101 a 149 estilos del h1, logo y wave */
+.title{
+    
     width: 120px;
     height: 120px; 
     border-radius: 100%;
     background-color: var(--colorlogo);
+    
+    position: absolute;
+    left:0;
+    right: 0;
+    bottom: 0;
+    top: -70%;
+    margin: auto;
+    
 }
 
 h1{
     text-align: center;
     align-self: center;
-    position: absolute;
-    top: 10px;
     color: var(--colornav);
 
+}
+.subtitle{
+    font-size: 10px;
+    text-align: center;
 }
 .motto{
     width: 100%;
@@ -126,16 +135,16 @@ h1{
 }
 
 .logotruck{
-    width: 100%;
-    height: 130px;
+    width: 250px;
+    height: 200px;
     position: absolute;
     bottom: 100px;
     display: flex;
-    justify-content: center;
+    bottom: 40px;
 }
 .logoimg{
-    height: 150px;
-    width: 150px;
+    height: 100%;
+    width: 100%;
 }
 
 .wave{
@@ -143,43 +152,50 @@ h1{
     bottom: 40px;
 }
 
-#nuestra_flota{
+/* Section nuestra flota */
+
+.nuestra_flota{
     position: relative;
     background-color: var(--color_flota);
     width: 100%;
-    height: 100vh;
+    min-height: 900px;
     display: flex;
     flex-wrap: wrap;
-    gap: 1px 1px;
+    justify-content: center;
+    
 }
 
 /* galería */
 
 .flota_container{
     position: absolute;
-    top: 80px;
-    width: 100%;
-    height: 100dvh;
+    top: 30px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    align-content: flex-start;
-    
-    
+    padding: 10px;
 }
 
 .flota_picture{
-    width: 155px;
+    width: 200px;
     height: 150px;
     border-radius: 80px 0px 80px 15px / 28px 0px 28px 0px;
     padding: 15px 1px;
+    position: relative;
+    justify-content: center;
    
     /* flex-grow: 1; hacer esto es lo mismo que hacer flex: y el valor del basis */
 }
+.flotatext{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 .flota_img{
-    width: 155px;
+    width: 200px;
     height: 150px;
-    border-radius: 80px 0px 80px 15px / 28px 0px 28px 0px;
+    border-radius: 15px 20px;
+    justify-content: center;
 
 }
 

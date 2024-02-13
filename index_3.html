@@ -31,11 +31,40 @@
         </header>
 
         <main>
-            <form action="" id="postulate">
+            <form  id="postulate" class="form_container">
                 <fieldset>
                     <legend>Datos personales</legend>
                     <label for="text">Nombre</label>
                     <input type="" name="Ingrese nombre" id="ingresenombre">
+
+                    <label for="text">Apellido</label>
+                    <input type="text" name="Apellido" id="Apellido">
+
+                    <label for="text">Fecha de nacimiento</label>
+                    <input type="text" name="datebirth" id="datebirth">
+
+                    <label for="text">CUIT/CUIL</label>
+                    <input type="text" name="cuit" id="cuit">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Experiencia</legend>
+                    <label for="text">¿Cuenta con experiencia en manejo de camiones?</label>
+                    <input type="checkbox" name="si" id="si">Sí
+                    <input type="checkbox" name="no" id="no"> No
+                    <label for="text">Cuéntenos acerca de su último empleo</label>
+                    <input type="text" name="experiencia" id="experiencia">
+                    <br>
+                    <label for="target">Adjunte su CV</label>
+                    <input type="button" value="subir archivo">
+                </fieldset>
+                <fieldset>
+                    <legend>Información adicional</legend>
+                    <label for="text">¿Se encuentra habilitado para el transporte de cargas pesadas?</label>
+                    <input type="checkbox" name="sí" id="sí"> Sí
+                    <input type="checkbox" name="no" id="no">No
+
+                    <label for="text"></label>
                 </fieldset>
             </form>
         </main>
