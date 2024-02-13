@@ -248,3 +248,10 @@ footer a{
 .hero2{
     height: 50px;
 }
+
+form{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
