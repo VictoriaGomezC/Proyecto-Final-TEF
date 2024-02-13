@@ -96,6 +96,7 @@ nav a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: space-around;
 
 }
 
@@ -128,28 +129,30 @@ h1{
 }
 .motto{
     width: 100%;
-    height: 180px;
+    height: 150px;
     position: absolute;
     top:150px;
     text-align: center;
 }
 
 .logotruck{
+    position: absolute;
     width: 250px;
     height: 200px;
-    position: absolute;
-    bottom: 100px;
     display: flex;
     bottom: 40px;
+    background-image: url(../assets/truck_logo.png);
+    background-size: cover;
 }
-.logoimg{
+/* .logoimg{
     height: 100%;
     width: 100%;
-}
+} */
 
 .wave{
     position: absolute;
     bottom: 40px;
+    width: 100%;
 }
 
 /* Section nuestra flota */
@@ -206,7 +209,7 @@ h1{
 
 .description_flota{
     background-color: var(--color_flotatext);
-    height: 100dvh;
+    height: 700px;
 }
 
 /* footer */
