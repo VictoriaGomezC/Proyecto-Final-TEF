@@ -2,7 +2,7 @@
 @import url(./normalize.css);
 @import url(./mobile.css); 
 @import url(./tablet.css)screen and (min-width:600);
-@import url(./desktop.css) screen and (min-width:1024);
+@import url(./desktop.css)screen and (min-width:1020);
 /* @import url(./mobile.css); */
 
 /* ajustes generales */

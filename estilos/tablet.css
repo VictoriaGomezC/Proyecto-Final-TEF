@@ -29,9 +29,8 @@
         flex-direction: row;
         padding: 10px;
         flex-wrap: wrap;
-        /* align-content: space-between; */
         justify-content: space-around;
-        /* align-items: baseline;*/
+       
 }
 
 

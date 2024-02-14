@@ -1,0 +1,23 @@
+.hero{
+    background-image: url(../assets/truck1.jpg);
+    background-size: cover;
+
+}
+picture .logotruck{
+    display: none;
+}
+
+.wave{
+    display:none;
+}
+
+.flota_picture{
+    width: 320px;
+    height: 200px;
+}
+
+.flota_img{
+    height: 100%;
+    width: 100%;
+}
+
