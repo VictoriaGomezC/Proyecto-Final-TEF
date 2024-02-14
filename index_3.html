@@ -29,42 +29,51 @@
 
         </nav>
         </header>
-
-        <main>
-            <form  id="postulate" class="form_container">
-                <fieldset>
+        <main class="container_form">
+            <form  id="postulate" class="form">
+                <fieldset class="data_container">
                     <legend>Datos personales</legend>
-                    <label for="text">Nombre</label>
-                    <input type="" name="Ingrese nombre" id="ingresenombre">
 
-                    <label for="text">Apellido</label>
-                    <input type="text" name="Apellido" id="Apellido">
+                    <article class="form_column">
+                        <label for="text">Nombre</label>
+                        <input type="text" placeholder="Ingrese su sombre" name="Ingrese nombre">
+    
+                        <label for="text">Apellido</label>
+                        <input type="text" placeholder="Ingrese su apellido" name="Apellido" id="Apellido">
 
-                    <label for="text">Fecha de nacimiento</label>
-                    <input type="text" name="datebirth" id="datebirth">
+                    </article>
 
-                    <label for="text">CUIT/CUIL</label>
-                    <input type="text" name="cuit" id="cuit">
+                    <article class="form_row">
+                        <label for="text" class="label_date">Fecha de nacimiento</label>
+                        <input type="text" placeholder="DD/MM/AAAA" name="datebirth">
+    
+                        <label for="text" class="label_cuil">CUIT/CUIL</label>
+                        <input type="text" placeholder="Ingrese CUIT/CUIL" name="cuit">
+
+                    </article>
                 </fieldset>
 
-                <fieldset>
+                <fieldset class="experiencia_container">
                     <legend>Experiencia</legend>
-                    <label for="text">¿Cuenta con experiencia en manejo de camiones?</label>
-                    <input type="checkbox" name="si" id="si">Sí
-                    <input type="checkbox" name="no" id="no"> No
-                    <label for="text">Cuéntenos acerca de su último empleo</label>
-                    <input type="text" name="experiencia" id="experiencia">
-                    <br>
+                    <label for="text">¿Cuenta con experiencia en manejo de camiones?
+                        <input type="checkbox" name="si" id="si">Sí
+                        <input type="checkbox" name="no" id="no"> No
+                    </label>
+                    <label for="text">Cuéntenos acerca de su último empleo
+                    </label>
+                    <textarea type="text" name="experiencia" id="experiencia">
+                    </textarea>
                     <label for="target">Adjunte su CV</label>
                     <input type="button" value="subir archivo">
                 </fieldset>
                 <fieldset>
                     <legend>Información adicional</legend>
-                    <label for="text">¿Se encuentra habilitado para el transporte de cargas pesadas?</label>
-                    <input type="checkbox" name="sí" id="sí"> Sí
-                    <input type="checkbox" name="no" id="no">No
+                    <label for="text">¿Se encuentra habilitado para el transporte de cargas pesadas?
+                        <input type="checkbox" name="sí"> Sí
+                        <input type="checkbox" name="no">No
 
-                    <label for="text"></label>
+                    </label>
+                    
                 </fieldset>
             </form>
         </main>

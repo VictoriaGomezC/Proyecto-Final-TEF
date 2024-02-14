@@ -276,9 +276,52 @@ footer a{
     height: 50px;
 }
 
-form{
+/* formulario */
+.container_form{
+    width: 100%;
     display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}    
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.data_container{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.form_column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+/* Acá cambio a fila para que no quede tan desprolijo y esté todo en una línea. si no me gusta, cambiarlo */
+.form_row{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
     
+}
+
+.label_date{
+    padding-left: 0.25rem;
+}
+
+.label_cuil{
+    padding-right: 0.25rem;
+}
+
+#experiencia{
+    width: 100%;
+}
+
+.experiencia_container{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
 }
