@@ -40,6 +40,11 @@ h1{
     height: 100%;
     width: 100%;
 }
+
+.description_flota{
+    height: 100dvh;
+    
+}
 /* footer */
 footer{
     height: 200px;

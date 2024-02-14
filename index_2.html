@@ -58,23 +58,36 @@
                 
             </section>
 
-            <section id="contacto">
+            <section id="contacto" class="container_form">
+                <div class="contact_container">
+                    <div class="info_form">
+                        <h2>Contacto</h2>
+                        <p>Por cualquier duda, consulta, reclamo o presuuesto, completa el formulario:</p>
+                        <a href="#"><i class="fa fa-phone"></i> 15627586 </a>
+                        <a href="#"><i class="fa fa-envelope"></i> transporteselfederal@gmail.com</a>
+                    </div>
+                    <div class="map_container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d564.4588051085599!2d-58.87581677064929!3d-34.610524668495586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc919954a8bec7%3A0x6823e757c5ce9b4b!2sManuel%20Belgrano%201573%2C%20Gral.%20Rodr%C3%ADguez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1707944453360!5m2!1ses-419!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </div>
+                
                 <form action="formulario">
-                    <fieldset>
+                    <fieldset class="contact_form">
                         <legend>Contacto</legend>
-                        <label for="Nombre">Ingrese su nombre</label>
-                        <input type="text" name="Nombre" id="nombre">
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" placeholder="Ingrese su nombre" name="Nombre">
 
-                        <label for="apellido">Ingrese su apellido</label>
-                        <input type="text" name="Apellido" id="apellido">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" placeholder="Ingrese su apellido" name="Apellido">
 
-                        <label for="phone">Ingrese teléfono</label>
-                        <input type="text" name="phone" id="phone">
+                        <label for="phone">Teléfono</label>
+                        <input type="text" placeholder="Ingrese su teléfono" name="phone">
                     </fieldset>
                     <fieldset>
                         <legend>Mensaje</legend>
-                        <label for="email">Ingrese e-mail</label>
-                        <input type="text" name="mensaje" id="mensaje">
+                        <label for="email">E-mail</label>
+                        <input type="text" placeholder="Ingrese e-mail" name="mensaje">
 
                         <textarea name="mensaje" placeholder="Ingrese mensaje" cols="30" rows="10"></textarea>
                         

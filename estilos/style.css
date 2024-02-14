@@ -16,8 +16,11 @@
     --color_flota:#ffffff;
     --color_flotatext:rgb(255, 238, 0);
     --color_qs:#282864;
+    --colortitulos:rgb(49, 6, 49);
 
-}
+    }
+
+
 
 html{
     font-family: var(--fonthtml);
