@@ -31,3 +31,6 @@ html{
     list-style: none;
     
 }
+ h2{
+    color: var(--colortitulos);
+ }
