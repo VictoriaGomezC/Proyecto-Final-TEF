@@ -172,11 +172,14 @@ h1{
 
 .flota_container{
     position: absolute;
-    top: 30px;
+    top: 50px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     padding: 10px;
+    flex-wrap: wrap;
+    /* align-content: space-between; */
+    justify-content: space-around;
+    /* align-items: baseline;*/
 }
 
 .flota_picture{
@@ -193,7 +196,11 @@ h1{
     position: absolute;
     bottom: 0;
     right: 0;
+    color: white;
+    padding-right: 10px;
+    text-shadow: 5px black;
 }
+
 .flota_img{
     width: 200px;
     height: 150px;
@@ -205,6 +212,7 @@ h1{
 .waveflota{
     position: absolute;
     bottom: -20px;
+    width: 100%;
 }
 
 .description_flota{

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Raleway:wght@100&display=swap');
 @import url(./normalize.css);
 @import url(./mobile.css); 
-@import url(./tablet.css)screen and (min-width:600px);
+@import url(./tablet.css)screen and (min-width:600);
 @import url(./desktop.css) screen and (min-width:1024);
 /* @import url(./mobile.css); */
 
