@@ -6,6 +6,7 @@
     <title>Ttes. El Federal</title>
     <link rel="stylesheet" href="./estilos/style.css"><link>
     <link rel="icon" type="image/vnd.icon" href="./assets/ícono.ico"><link>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/275d3faf2c.js"  crossorigin="anonymous"></script>
 
 </head>
@@ -32,7 +33,7 @@
         </nav>
 
         <div class="portada">
-            <div id="title" class="title">
+            <div id="title" class="title" data-aos="fade-right">
                 <h1>
                     TEF
                 </h1>
@@ -58,22 +59,22 @@
         <section id="nuestra_flota" class="nuestra_flota"> 
             <h2 class="gallery_title">Nuestra flota</h2>
             <div class="flota_container">
-                <picture class="flota_picture">
+                <picture class="flota_picture" data-aos="zoom-in-left">
                     <h3 class="flotatext">Volvo FH420</h3>
                     <img src="./assets/truck_blue.jpg" alt="truck_blue" class="flota_img">
                 </picture>
 
-                <picture class="flota_picture">
+                <picture class="flota_picture" data-aos="zoom-in-left">
                     <h3 class="flotatext">Volvo FM380</h3>
                     <img src="./assets/truck_green.jpg" alt="" class="flota_img">
                 </picture>
 
-                <picture class="flota_picture">
+                <picture class="flota_picture" data-aos="zoom-in-left">
                     <h3 class="flotatext">Volvo FMX320</h3>
                     <img src="./assets/truck_white.jpg" alt="" class="flota_img">
                 </picture>
 
-                <picture class="flota_picture">
+                <picture class="flota_picture" data-aos="zoom-in-left">
                     <h3 class="flotatext">Sprinter Furgo</h3>
                     <img src="./assets/Sprinter.jpg" alt="" class="flota_img">
                 </picture>
@@ -133,6 +134,9 @@
         
         
     </footer>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
