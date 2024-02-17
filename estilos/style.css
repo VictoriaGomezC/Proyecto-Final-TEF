@@ -16,7 +16,7 @@
     --color_flota:#ffffff;
     --color_flotatext:rgb(255, 238, 0);
     --color_qs:#282864;
-    --colortitulos:rgb(49, 6, 49);
+    --colortitulos:rgb(84, 5, 84);
 
     }
 
@@ -33,4 +33,11 @@ html{
 }
  h2{
     color: var(--colortitulos);
+ }
+
+ .copyrigth{
+    font-size: small;
+    font-weight: normal;
+    color: white;
+    background-color: var(--colortitulos);
  }

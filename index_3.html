@@ -30,9 +30,10 @@
 
         </nav>
         </header>
+
         <main class="container_form">
             <form  id="postulate" class="form">
-                <fieldset class="data_container">
+                <fieldset class="form_container">
                     <legend>Datos personales</legend>
 
                     <article class="form_column">
@@ -54,7 +55,7 @@
                     </article>
                 </fieldset>
 
-                <fieldset class="experiencia_container">
+                <fieldset class="form_container">
                     <legend>Experiencia</legend>
                     <label for="text">¿Cuenta con experiencia en manejo de camiones?
                         <input type="checkbox" name="si" id="si">Sí
@@ -67,7 +68,7 @@
                     <label for="target">Adjunte su CV</label>
                     <input type="button" value="subir archivo">
                 </fieldset>
-                <fieldset>
+                <fieldset class="form_container">
                     <legend>Información adicional</legend>
                     <label for="text">¿Se encuentra habilitado para el transporte de cargas pesadas?
                         <input type="checkbox" name="sí"> Sí
@@ -76,6 +77,7 @@
                     </label>
                     
                 </fieldset>
+                <button type="submit" class="submit">Enviar</button>
             </form>
         </main>
 
@@ -94,6 +96,7 @@
             
             
         </footer>
+        <h2 class="copyrigth">© 2024, Victoria Gomez, all rigths reserved</h2>
         <script>
             AOS.init();
           </script>
